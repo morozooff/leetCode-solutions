@@ -9,6 +9,41 @@
 
 <h1>🍏EASY🍏</h1>
 
+<h2>1. Two Sum</h2>
+<a href = "https://leetcode.com/problems/two-sum/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/twoSum.py"> Solution <a/>
+  
+<p>Return sum of two elements by their index</p>
+  
+<h2>9. Palindrome Number</h2>
+<a href = "https://leetcode.com/problems/palindrome-number/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/palindromeNumber.py"> Solution <a/>
+  
+<p>Invert string, compare invert with original</p>
+  
+<h2>13. Roman to Integer</h2>
+<a href = "https://leetcode.com/problems/roman-to-integer/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/romanToInteger.py"> Solution <a/>
+  
+<p>Use Python dictionaries for coeff and counters symbol, than just sum </p>
+
+<h2>14. Longest Common Prefix</h2>
+<a href = "https://leetcode.com/problems/longest-common-prefix/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/longectCommonPrefix.py"> Solution <a/>
+  
+<p>Use zip(), set() than compare</p>
+  
+<h2>20. Valid Parentheses</h2>
+<a href = "https://leetcode.com/problems/valid-parentheses/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/validParentheses.py"> Solution <a/>
+  
+<p>Create stack, add at stack bracket, if bracket already in stack just pop() it out. If string is valid, len(strng) must be 0</p>
+  
 <h2>118. Pascal's Triangle</h2>
 <a href = "https://leetcode.com/problems/pascals-triangle/"> Problem <a/>
   
@@ -22,11 +57,17 @@ ___
   
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/PascalsTriangle2.py"> Solution <a/>
 <p>For more details check post with explanation <b>118. Pascal Triangle</b></p>
+  
+<h2>136. Single Number</h2>
+<a href = "https://leetcode.com/problems/single-number/description/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/singleNumber.py"> Solution <a/>
+<p>Create additional list, if current elem already exists on list, delete from list same elem. <br>
+  If doesnt exist - add current elem on list
+</p>
 
 <h1>🍋MEDIUM🍋</h1>
 <h2>2390. Removing Stars From a String</h2>
-
-<a href = "https://leetcode.com/problems/removing-stars-from-a-string/description/"> Problem <a/>
 
 <p> I see two ways to solve this problem <br> <br>
 <b>First</b> - for any Py version:<br>
@@ -45,6 +86,8 @@ While there is *:
 <li> For definition index use index() </li> 
 </ol> 
 </p>
+  
+<a href = "https://leetcode.com/problems/removing-stars-from-a-string/description/"> Problem <a/>
 
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/medium/removingStarsFromAString.py"> Solution <a/>
 
