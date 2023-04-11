@@ -5,7 +5,7 @@
 
 [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=morozoff_yarik)](https://github.com/KnlnKS/leetcode-stats)
 
-<div>to fast find use CMD(Ctrl)+F + name of problem🐗</div>
+<div>to fast find use CMD(Ctrl)+F + name of problem (or num)🐗</div>
 
 <h1>🍏EASY🍏</h1>
 
@@ -20,4 +20,28 @@ ___
 
 
 <h1>🍋MEDIUM🍋</h1>
+<h2>2390. Removing Stars From a String</h2>
+
+<a href = "https://leetcode.com/problems/removing-stars-from-a-string/description/"> Problem <a/>
+
+<p> I see two ways to solve this problem <br> <br>
+<b>First</b> - for any Py version:<br>
+<ol type="1"> 
+<li> Create stack </li> 
+<li> Iterate elements </li> 
+<li> Add to stack if elem is not *, but if elem is *, take out highter elem in stack </li> 
+</ol> 
+</p>
+
+<p> <b>Second</b> - for any Py version using syntactic sugar 🤤:<br>
+<b>❗️WARN❗️</b> Its solution expensive on time <br> <br>
+While there is *:
+<ol type="1">  
+<li> In new string create <b>slice</b> =  [elem before left neighbor of *] +  [elem after *]  </li> 
+<li> For definition index use index() </li> 
+</ol> 
+</p>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/medium/removingStarsFromAString.py"> Solution <a/>
+
 <h1>🍎HARD🍎</h1>
