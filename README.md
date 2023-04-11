@@ -17,7 +17,11 @@
 ___
 <a href = "https://leetcode.com/problems/pascals-triangle/solutions/3403862/solution-with-comb-n-k-beast-85-44/"> My post with explanation <a/>
 
-
+<h2>119. Pascal's Triangle II</h2>
+<a href = "https://leetcode.com/problems/pascals-triangle-ii/description/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/PascalsTriangle2.py"> Solution <a/>
+<p>For more details check post with explanation <b>118. Pascal Triangle</b></p>
 
 <h1>🍋MEDIUM🍋</h1>
 <h2>2390. Removing Stars From a String</h2>
