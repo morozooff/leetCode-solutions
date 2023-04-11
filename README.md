@@ -48,4 +48,4 @@ While there is *:
 
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/medium/removingStarsFromAString.py"> Solution <a/>
 
-<h1>🍎HARD🍎</h1>
+<h1>🍅HARD🍅</h1>
