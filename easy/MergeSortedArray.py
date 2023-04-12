@@ -1,8 +1,7 @@
 def merge(nums1, m, nums2, n):
     del nums1[m:len(nums1)]
-    temp_num = nums1
     nums1.extend(nums2)
-    del nums1[0:m]
+    nums1.sort()
 
 nums1 = [1, 2, 3, 0, 0,0]
 m = 3
