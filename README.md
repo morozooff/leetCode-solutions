@@ -2,6 +2,8 @@
 <div>Hi, this is repo for my solution of problem on LeetCode</div>
 
 <h3>Stats</h3>
+<a href = "https://leetcode.com/morozoff_yarik/"> My profile </a>
+
 
 [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=morozoff_yarik)](https://github.com/KnlnKS/leetcode-stats)
 
