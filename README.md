@@ -44,6 +44,96 @@
   
 <p>Create stack, add at stack bracket, if bracket already in stack just pop() it out. If string is valid, len(strng) must be 0</p>
   
+<h2>21. Merge Two Sorted Lists</h2>
+<a href = "https://leetcode.com/problems/merge-two-sorted-lists/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/mergeTwoSortedList.py"> Solution <a/>
+  
+<p>Create dummy node and move pointer on next depending on the result comparing pare list value. Return dummy next, because its first elem after dummy node</p>
+  
+<h2>26. Remove Duplicates from Sorted Array</h2>
+<a href = "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/removeDuplicates.py"> Solution <a/>
+  
+<p>For comparison create sorted list of unique value original list. Then just overwrite value in original. Return original</p>
+  
+
+<h2>27. Remove Element</h2>
+<a href = "https://leetcode.com/problems/remove-element/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/removeElement.py"> Solution <a/>
+  
+<p>Overwrite original list without given value. Return len overwriting list</p>
+  
+
+<h2>28. Find the Index of the First Occurrence in a String</h2>
+<a href = "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/findFirstOccurrenceIndex.py"> Solution <a/>
+  
+<p>If haystack exists in string use string method find(). They return desired index</p>
+
+<h2>35. Search Insert Position</h2>
+<a href = "https://leetcode.com/problems/search-insert-position/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/searchInsert.py"> Solution <a/>
+  
+<p>Use binary search for find index this element. If this element not in list, just find place between wich elements it must be</p>
+
+<h2>58. Length of Last Word</h2>
+<a href = "https://leetcode.com/problems/length-of-last-word/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/lenghtOLastWord.py"> Solution <a/>
+  
+<p>Transfer given string in list, then find len last elem in new list</p>
+  
+<h2>66. Plus One</h2>
+<a href = "https://leetcode.com/problems/plus-one/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/plusOne.py"> Solution <a/>
+  
+<p>Iterate from the end. If checking elem is 9, do transfer 1 on next check elem and current element = 0 + remain of sum</p>
+  
+<h2>67. Add Binary</h2>
+<a href = "https://leetcode.com/problems/add-binary/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/addBinary.py"> Solution <a/>
+  
+<p>Equalize a and b with zfill (it just add 0 in front), then sum elems according to the rules of binary addition. Return invert </p>
+  
+<h2>69. Sqrt(x)</h2>
+<a href = "https://leetcode.com/problems/sqrtx/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/mySqrt.py"> Solution <a/>
+  
+<p>Use binary search for findning integer value sqrt</p>
+  
+<h2>70. Climbing Stairs</h2>
+<a href = "https://leetcode.com/problems/climbing-stairs/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/climbStairs.py"> Solution <a/>
+  
+<p>Use resursion for adding way of step</p>
+  
+<h2>83. Remove Duplicates from Sorted List</h2>
+<a href = "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/removeDuplicatesSort.py"> Solution <a/>
+
+<h2>88. Merge Sorted Array</h2>
+<a href = "https://leetcode.com/problems/merge-sorted-array/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/MergeSortedArray.py"> Solution <a/>
+  
+<p>Delete n elem on end in first first, then extend elems in second, then use sort</p>
+  
+<h2>94. Binary Tree Inorder Traversal</h2>
+<a href = "https://leetcode.com/problems/binary-tree-inorder-traversal/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/inorderTraversal.py"> Solution <a>
+  
+  
 <h2>118. Pascal's Triangle</h2>
 <a href = "https://leetcode.com/problems/pascals-triangle/"> Problem <a/>
   
@@ -58,6 +148,14 @@ ___
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/PascalsTriangle2.py"> Solution <a/>
 <p>For more details check post with explanation <b>118. Pascal Triangle</b></p>
   
+<h2>125. Valid Palindrome</h2>
+<a href = "https://leetcode.com/problems/valid-palindrome/description/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/validPalindrome.py"> Solution <a/>
+<p> Convert to lowercase, then iterate every elem and, if current elem is alphanumeric - numbers or letters, add current elem add lst. <br>
+  Than just compare original and invert
+</p>
+  
 <h2>136. Single Number</h2>
 <a href = "https://leetcode.com/problems/single-number/description/"> Problem <a/>
   
@@ -65,6 +163,7 @@ ___
 <p>Create additional list, if current elem already exists on list, delete from list same elem. <br>
   If doesnt exist - add current elem on list
 </p>
+  
 
 <h1>🍋MEDIUM🍋</h1>
 <h2>2390. Removing Stars From a String</h2>
