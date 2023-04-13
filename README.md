@@ -149,6 +149,14 @@ ___
   
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/PascalsTriangle2.py"> Solution <a/>
 <p>For more details check post with explanation <b>118. Pascal Triangle</b></p>
+
+<h2>121. Best Time to Buy and Sell Stock</h2>
+<a href = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"> Problem <a/>
+  
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/maxProfit.py"> Solution <a/>
+<p>Create two pointers (<b>Left</b> and <b>Right</b>), if value <b>LP</b> bigger than value <b>RP</b>, move <b>LP</b> (its negative change).<br> 
+Else check positive different between values and overwrite if this different bigger than current value of different.<br>
+Anyway move <b>RP</b></p>
   
 <h2>125. Valid Palindrome</h2>
 <a href = "https://leetcode.com/problems/valid-palindrome/description/"> Problem <a/>
