@@ -173,7 +173,16 @@ Anyway move <b>RP</b></p>
 <p>Create additional list, if current elem already exists on list, delete from list same elem. <br>
   If doesnt exist - add current elem on list
 </p>
-  
+
+ <h2>169. Majority Element</h2>
+<a href = "https://leetcode.com/problems/majority-element/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/majorityElement.py"> Solution <a/>
+<p>Create frequency of occurence dictionary (counter)<br> 
+Count it:<br> 
+If element doesnt exist in counter, create place for it, else - add <b>1</b> in value existing elem<br>
+Then define major value and find appropriate key
+</p>
 
 <h1>🍋MEDIUM🍋</h1>
 <h2>2390. Removing Stars From a String</h2>
