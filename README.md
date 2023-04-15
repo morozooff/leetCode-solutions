@@ -174,7 +174,7 @@ Anyway move <b>RP</b></p>
   If doesnt exist - add current elem on list
 </p>
 
- <h2>169. Majority Element</h2>
+<h2>169. Majority Element</h2>
 <a href = "https://leetcode.com/problems/majority-element/description/"> Problem<a/>
 
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/majorityElement.py"> Solution <a/>
@@ -182,6 +182,17 @@ Anyway move <b>RP</b></p>
 Count it:<br> 
 If element doesnt exist in counter, create place for it, else - add <b>1</b> in value existing elem<br>
 Then define major value and find appropriate key
+</p>
+  
+<h2>202. Happy Number</h2>
+<a href = "https://leetcode.com/problems/happy-number/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/happyNumber.py"> Solution <a/>
+<p>Lets define that cycle will be endless if once it lock, that means value on new iteration already encounted in the cycle<br> 
+Create the check list and write into it value on every iteration, if it value already on check list, just break cycle and return False<br>  
+On every iteration convert n into rank list and sum sqrt of every elem<br> 
+If sum == 1, break cycle and return True<br>
+Else move to new iteration with new n-value = summ on last iteration and on begining new iteration just add n on check list
 </p>
 
 <h1>🍋MEDIUM🍋</h1>
