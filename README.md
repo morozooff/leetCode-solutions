@@ -195,6 +195,46 @@ If sum == 1, break cycle and return True<br>
 Else move to new iteration with new n-value = summ on last iteration and on begining new iteration just add n on check list
 </p>
 
+<h2>203. Remove Linked List Elements</h2>
+<a href = "https://leetcode.com/problems/remove-linked-list-elements/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/removeLinkedListElem.py"> Solution <a/>
+<p> Add dummy node in head and check the existing of next value, if its exists check equals on our value, if equal delete next elem (сonnect current elem with next next element, that means delete next node)<br>
+Return dummy next because we use dummy, and its 0 elem
+</p>
+
+<h2>206. Reverse Linked List</h2>
+<a href = "https://leetcode.com/problems/reverse-linked-list/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/reverseLinkedList.py"> Solution <a/>
+<p> Create additional nodes that starts with original node<br>
+Create stack to saving every elem of original list, iterate original list and write every elem on the stack <br>
+Then iterate tail list and overwrite values in reverse order using pop() from stack<br>
+Return dummy - last additional node
+ </p>
+ 
+<h2>217. Contains Duplicate</h2>
+<a href = "https://leetcode.com/problems/contains-duplicate/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/containsDuplicate.py"> Solution <a/>
+
+<p> Create dictionary that will save count of encounted elements, iterate elements and update counter values in the dictionary. If one of the values becomes equal 2, break cycle and return True
+ </p>
+ 
+<h2>231. Power of Two</h2>
+<a href = "https://leetcode.com/problems/power-of-two/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/powerOfTwo.py"> Solution <a/>
+
+<p> <b> Recursive solution </b><br>
+Divide by 2 until we get even numbers, if number isnt even, break cycle and return False<br>
+Base case 0 and 1:<br>
+<ol>
+ <li>1 is minimal positive integer thats pow of two, return True</li>
+ <li>0 is endless reciursive case, return False</li>
+</ol>
+</p>
+
 <h1>🍋MEDIUM🍋</h1>
 <h2>2390. Removing Stars From a String</h2>
 
