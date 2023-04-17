@@ -235,6 +235,13 @@ Base case 0 and 1:<br>
 </ol>
 </p>
 
+<h2>1108. Defanging an IP Address</h2>
+<a href = "https://leetcode.com/problems/defanging-an-ip-address/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/defandingAnIPAddress.py"> Solution <a/>
+
+<p>Use python string method replace()</p>
+  
 <h2>1431. Kids With the Greatest Number of Candies</h2>
 <a href = "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/"> Problem<a/>
 
