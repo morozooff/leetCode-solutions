@@ -235,6 +235,14 @@ Base case 0 and 1:<br>
 </ol>
 </p>
 
+<h2>1431. Kids With the Greatest Number of Candies</h2>
+<a href = "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/kidsWithCandies.py"> Solution <a/>
+
+<p>Create result list and write into it boolean values, True if extraCandies+current elem bigger or equal than list maximum, else return False</p>
+ 
+ 
 <h1>🍋MEDIUM🍋</h1>
 <h2>2390. Removing Stars From a String</h2>
 
