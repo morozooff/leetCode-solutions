@@ -248,6 +248,13 @@ Base case 0 and 1:<br>
 <a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/kidsWithCandies.py"> Solution <a/>
 
 <p>Create result list and write into it boolean values, True if extraCandies+current elem bigger or equal than list maximum, else return False</p>
+
+<h2>2011. Final Value of Variable After Performing Operations</h2>
+<a href = "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/finalValueOfVariableAfterPermOperations.py"> Solution <a/>
+
+<p>Easy task - easy solution, alphabet has four operations and just choose operation and count value</p>
  
  
 <h1>🍋MEDIUM🍋</h1>
