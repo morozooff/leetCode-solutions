@@ -174,6 +174,31 @@ Anyway move <b>RP</b></p>
   If doesnt exist - add current elem on list
 </p>
 
+<h2>168. Excel Sheet Column Title</h2>
+<a href = "https://leetcode.com/problems/excel-sheet-column-title/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/excelSheetColumnTitle.py"> Solution <a/>
+
+<p>I think its not easy task)) <br>
+But i find solution:<br>
+
+<ol type = "1">
+<li>Create empty str and start while cycle (while column num positive)</li>
+<li>Substract 1 from columnNum because symbs starts with 0</li>
+<li>Find remain of divide(26)</li>
+<li>Find position in ascii (+65 symb defore char alphabet) and take this symb to string</li>
+<li>New column num - whole part of divide</li>
+</ol>
+</p>
+
+<h2>171. Excel Sheet Column Number</h2>
+<a href = "https://leetcode.com/problems/excel-sheet-column-number/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/excelSheetColumnNum.py"> Solution <a/>
+
+<p>Create own alphabet, and find num by pow 26 starts with end of columnTitle
+</p>
+
 <h2>169. Majority Element</h2>
 <a href = "https://leetcode.com/problems/majority-element/description/"> Problem<a/>
 
