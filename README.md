@@ -208,6 +208,25 @@ Count it:<br>
 If element doesnt exist in counter, create place for it, else - add <b>1</b> in value existing elem<br>
 Then define major value and find appropriate key
 </p>
+
+<h2>190. Reverse Bits</h2>
+<a href = "https://leetcode.com/problems/reverse-bits/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/reverseBits.py"> Solution <a/>
+<p> Python func get already converting num and work with it <br>
+Its mean that we must convert back to bin <br>
+Create string and convert integer<br>
+Then add left 0 to this string until len string = 32 <br>
+Then reverse and translate this string into integer
+</p>
+
+<h2>191. Number of 1 Bits</h2>
+<a href = "https://leetcode.com/problems/number-of-1-bits/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/numberOf1Bits.py"> Solution <a/>
+<p> Find a hamming Weight <br>
+Convert to string and count symb '1' 
+</p>
   
 <h2>202. Happy Number</h2>
 <a href = "https://leetcode.com/problems/happy-number/description/"> Problem<a/>
