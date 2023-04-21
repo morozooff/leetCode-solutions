@@ -247,6 +247,17 @@ Else move to new iteration with new n-value = summ on last iteration and on begi
 Return dummy next because we use dummy, and its 0 elem
 </p>
 
+<h2>205. Isomorphic Strings</h2>
+<a href = "https://leetcode.com/problems/isomorphic-strings/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/isomorphicStrings.py"> Solution <a/>
+<p> Create comparing dict, its dictionary where one-to-one correspondence <br>
+Lets think that elem from s - keys, from t - values <br>
+And add in dict if key not in dictionary and if values already in dict - return false, because one-to-one <br>
+If key in dictionary lets check: Is value on current key in dictionary equal current elem in t or not? <br>
+If equal continue, not equal - reurn False
+ </p>
+ 
 <h2>206. Reverse Linked List</h2>
 <a href = "https://leetcode.com/problems/reverse-linked-list/description/"> Problem<a/>
 
@@ -277,6 +288,17 @@ Base case 0 and 1:<br>
  <li>1 is minimal positive integer thats pow of two, return True</li>
  <li>0 is endless reciursive case, return False</li>
 </ol>
+</p>
+
+<h2>242. Valid Anagram</h2>
+<a href = "https://leetcode.com/problems/valid-anagram/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/validAnagram.py"> Solution <a/>
+
+<p> Easy solution:<br>
+Count frequency symbol in first word and write in dict, then copy struct first frequency dict to second frequency dict and reset values on second to zero <br>
+Then count frequency in second word and write in dict <br>
+Then compare first frequency and second frequency
 </p>
 
 <h2>1108. Defanging an IP Address</h2>
