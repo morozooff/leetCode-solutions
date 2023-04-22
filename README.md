@@ -301,6 +301,40 @@ Then count frequency in second word and write in dict <br>
 Then compare first frequency and second frequency
 </p>
 
+<h2>258. Add Digits</h2>
+<a href = "https://leetcode.com/problems/add-digits/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/addDigits.py"> Solution <a/>
+
+<p> Sum range values of num overwrite num this sum while range > 1. Find every range value from mapping
+</p>
+
+<h2>263. Ugly Number</h2>
+<a href = "https://leetcode.com/problems/ugly-number/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/uglyNum.py"> Solution <a/>
+
+<p> Incomprehensible wording of the task. It is necessary to determine a number that would decompose to 1 by dividing only by [2, 3, 5]</br>
+Then check: Did decompose to 1 number or not?
+</p>
+
+<h2>434. Number of Segments in a String</h2>
+<a href = "https://leetcode.com/problems/number-of-segments-in-a-string/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/numberOfSegmentsInAString.py"> Solution <a/>
+
+<p> Easy solution - break input string to word list and count lenght of this string
+</p>
+
+<h2>441. Arranging Coins</h2>
+<a href = "https://leetcode.com/problems/arranging-coins/description/"> Problem<a/>
+
+<a href = "https://github.com/morozooff/leetCode-solutions/blob/master/easy/arrangingCoins.py"> Solution <a/>
+
+<p> Immitate filling staircase:<br>
+Start counter with -1 and increment it if we fill current level (if current n - current num of steps bigger or equal than 0)
+</p>
+
 <h2>1108. Defanging an IP Address</h2>
 <a href = "https://leetcode.com/problems/defanging-an-ip-address/description/"> Problem<a/>
 
